@@ -101,7 +101,7 @@
                                                                      &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+            sensor-bindings = <&inc_dec_kp LC(K_SCROLL_UP) LC(K_SCROLL_DOWN)>;
         };
 
         layer_3 {
